@@ -29,7 +29,7 @@ async function processar(evento){
         document.getElementById("valor-cep").textContent = r.cep;
         document.getElementById('valor-logradouro').textContent = r.logradouro;
         document.getElementById('valor-bairro').textContent = r.bairro;
-        document.getElementById('valor-cidade').textContent = r.cidade;
+        document.getElementById('valor-cidade').textContent = r.localidade;
         document.getElementById('valor-uf').textContent = r.uf;
         document.getElementById('valor-ibge').textContent = r.ibge;
         resultado.hidden = false;
